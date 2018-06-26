@@ -1,0 +1,17 @@
+{
+    "name": "Edge Tab Filterer",
+    "author": "Connor Smith",
+    "version": "0.1",
+    "description": "Easily filter and switch to tabs in Microsoft Edge",
+    "permissions": [
+	"tabs"
+    ],
+    "browser_action": {
+	"default_icon": {
+	    "20": "images/tab-filterer20.png",
+	    "40": "images/tab-filterer40.png"
+	},
+	"default_title": "Tab Filterer",
+	"default_popup": "popup.html"
+    }
+}
